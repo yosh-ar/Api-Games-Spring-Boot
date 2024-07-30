@@ -1,0 +1,10 @@
+server:
+  port: 8080
+spring:
+  datasource:
+    url: jdbc:postgresql://localhost:5432/api
+    username: postgres
+    password: admin
+  jpa:
+    hibernate:
+      ddl-auto: update
